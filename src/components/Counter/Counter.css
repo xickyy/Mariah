@@ -28,7 +28,7 @@ p {
 .yes {
   margin: 10px;
   color: hotpink;
-  background-color: aqua;
+  background-color: rgb(175, 30, 180);
   border-color:blueviolet ;
   font-size: 20px;
 }

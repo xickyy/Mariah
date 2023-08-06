@@ -68,9 +68,8 @@ const Counter = () => {
         <h2>AKA Babygirl ♡</h2>
         <p>Its already somehow been two weeks since we started talking, lets make it official?</p>
         <bl></bl>
-        <p>Will you be my girlfriend as of  </p>
+        <p>Will you be my girlfriend as of ♡ {date} ♡ </p>
         <bl></bl>
-        <p>♡ {date} ♡</p>
         {yes()} {no()}
       </div>
 

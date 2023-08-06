@@ -1,0 +1,49 @@
+.before-answer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.after-answer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+
+h1 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 35px;
+}
+
+.yes {
+  margin: 10px;
+  color: hotpink;
+  background-color: aqua;
+  border-color:blueviolet ;
+  font-size: 20px;
+}
+
+.yes:hover {
+  box-shadow: 10px 5px 5px red;
+  cursor: pointer;
+}
+
+.no {
+  color: red;
+  background-color: black;
+}
+
+.no:hover {
+  box-shadow: 10px 5px 5px red;
+  cursor: pointer;
+}

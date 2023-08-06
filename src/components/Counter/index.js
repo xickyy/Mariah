@@ -13,22 +13,22 @@ const Counter = () => {
   let yesStyle = {}
 
   if (noCount === 1) {
-    style = { marginTop: '100px' }
+    style = { marginTop: '50px' }
   }
   if (noCount === 2) {
-    style = { marginLeft: '100px' }
+    style = { marginLeft: '75px' }
   }
   if (noCount === 3) {
-    style = { marginRight: '100px' }
+    style = { marginRight: '75px' }
   }
   if (noCount === 4) {
-    style = { marginTop: '100px', marginRight: '-100px'  }
+    style = { marginTop: '50px', marginRight: '-75px'  }
   }
   if (noCount === 5) {
-    style = { marginTop: '100px', marginLeft: '-100px' }
+    style = { marginTop: '50px', marginLeft: '-75px' }
   }
   if (noCount === 6) {
-    style = { marginTop: '100px' }
+    style = { marginTop: '20px' }
   }
 
   if (noCount === 7) {

@@ -57,7 +57,7 @@ const Counter = () => {
       <div className="after-answer">
         <h1 className='title'>♡ Mariah Alyssa Arciniega ♡</h1>
         <h2>AKA Babygirl ♡</h2>
-        <h1>I knew you loved me ♡!♡!♡!♡</h1>
+        <h1>I knew you loved me ♡♡♡</h1>
         <h2>Now gimmie a kisss ♡</h2>
       </div>
     )
@@ -68,7 +68,7 @@ const Counter = () => {
         <h2>AKA Babygirl ♡</h2>
         <p>Its already somehow been two weeks since we started talking, lets make it official?</p>
         <bl></bl>
-        <p>Will you be my girlfriend as of ♡ {date} ♡ </p>
+        <p>Will you be my girlfriend as of ♡{date}♡ </p>
         <bl></bl>
         {yes()} {no()}
       </div>

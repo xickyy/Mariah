@@ -2,9 +2,11 @@ import './Counter.css'
 
 import { useState } from "react";
 
+import img from './img.jpg';
+
 const Counter = () => {
 
-  let date = 'Sunday August 6th 2023'
+  let date = 'Monday October 23rd ♡♡ 2023 ♡♡'
 
   const [yesCount, setYesCount] = useState(false)
   let [noCount, setNoCount] = useState(0)
@@ -38,7 +40,7 @@ const Counter = () => {
 
   const yes = () => {
     return (
-      <button style={yesStyle} className="yes" onClick={() => setYesCount(true)}>YES Obviously ♡</button>
+      <button style={yesStyle} className="yes" onClick={() => setYesCount(true)}>♡ YES ♡</button>
     )
   }
 
@@ -48,7 +50,7 @@ const Counter = () => {
 
   let no = () => {
     return (
-      <button style={style} className="no" onClick={() => setNoCount(noCount = noCount + 1)}>NO WTF?</button>
+      <button style={style} className="no" onClick={() => setNoCount(noCount = noCount + 1)}>NEVER 👹</button>
     )
   }
 
@@ -56,19 +58,20 @@ const Counter = () => {
     return (
       <div className="after-answer">
         <h1 className='title'>♡ Mariah Alyssa Arciniega ♡</h1>
-        <h2>AKA Babygirl ♡</h2>
-        <h1>I knew you loved me ♡♡♡</h1>
-        <h2>Now gimmie a kisss ♡</h2>
+        <h2>♡ AKA Babygirl ♡</h2>
+        <h1>♡ Thats right! ♡</h1>
+        <h1>♡ Now gimmie a kisss ♡</h1>
+        <img className='image' src={img}></img>
       </div>
     )
   } else {
     return (
       <div className="before-answer">
-        <h1>♡ Mariah Alyssa Arciniega ♡</h1>
-        <h2>AKA Babygirl ♡</h2>
-        <p>Its already somehow been two weeks since we started talking, lets make it official?</p>
+        <h1 className='name'>♡ Mariah Alyssa Arciniega ♡</h1>
+        <h2>♡ AKA Babygirl ♡</h2>
+        <p className='text'>Its been 3 months now, and we still got forever to go</p>
         <bl></bl>
-        <p>Will you be my girlfriend as of ♡ {date} ♡ </p>
+        <p className='text'>Will you be my girlfriend as of {date} </p>
         <bl></bl>
         {yes()} {no()}
       </div>

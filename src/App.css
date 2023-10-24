@@ -3,7 +3,7 @@ body {
   margin: 0;
     height: 100vh;
     font-weight: 100;
-    background: radial-gradient(#397ba2,#6d1175);
+    background: radial-gradient( limegreen, black);
     -webkit-overflow-Y: hidden;
     -moz-overflow-Y: hidden;
     -o-overflow-Y: hidden;
@@ -19,8 +19,8 @@ body {
   position: absolute;
   width: 0px;
   opacity: .75;
-  background-color: white;
-  box-shadow: #e9f1f1 0px 0px 20px 2px;
+  background-color: rgb(231, 0, 0);
+  box-shadow: #000000 0px 0px 20px 2px;
   opacity: 0;
   top: 100vh;
   bottom: 0px;

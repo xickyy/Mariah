@@ -1,10 +1,18 @@
 .before-answer {
   display: flex;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   justify-items: center;
   align-items: center;
+  filter: drop-shadow(2px 2px 0px #7716d1);
+
+}
+
+.text {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .after-answer {
@@ -14,6 +22,11 @@
   align-content: center;
   justify-items: center;
   align-items: center;
+  filter: drop-shadow(2px 2px 0px #7716d1);
+}
+
+.name {
+  padding: 0px;
 }
 
 
@@ -25,11 +38,15 @@ p {
   font-size: 35px;
 }
 
+.image {
+  width: 95vw;
+}
+
 .yes {
   margin: 10px;
-  color: hotpink;
-  background-color: rgb(175, 30, 180);
-  border-color:blueviolet ;
+  color: rgb(40, 0, 58);
+  background-color: rgb(131, 0, 136);
+  border-color:rgb(20, 1, 37) ;
   font-size: 20px;
 }
 
